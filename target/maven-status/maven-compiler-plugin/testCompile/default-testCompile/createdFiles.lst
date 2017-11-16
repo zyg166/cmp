@@ -1,0 +1,3 @@
+com\platform\admin\service\UserServiceTest.class
+com\platform\admin\dao\UserDaoTest.class
+com\platform\admin\controller\UserControllerTest.class
