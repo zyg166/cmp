@@ -25,5 +25,6 @@
 		</property>
 	</bean>
 	<import resource="classpath*:spring-bean.xml"/>
+	
 </beans>
 
