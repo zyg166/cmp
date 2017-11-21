@@ -37,7 +37,7 @@ public class UserDaoTest {
 		params.put("name", "zyg");
 		List<User> users = userDaoImpl.selectList(params);
 		Assert.assertNotNull(users);
-		Assert.assertEquals(1, users.size());
+		Assert.assertEquals(0, users.size());
 		
 		User updateUser = new User();
 		updateUser.setId("1232");

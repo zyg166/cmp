@@ -187,14 +187,14 @@
 		
     </dependencies>
     <build>
-        <finalName>catering</finalName>
+        <finalName>cmp</finalName>
         <plugins>          
 	       <plugin>      
 	        <groupId>org.apache.maven.plugins</groupId>          
 	        <artifactId>maven-surefire-plugin</artifactId>          
 	        <version>2.19.1</version>        
 	        <configuration>            
-	        <skipTests>true</skipTests>        
+	        	<skipTests>false</skipTests>        
 	        </configuration>      
 	        </plugin>  
 	     </plugins> 
