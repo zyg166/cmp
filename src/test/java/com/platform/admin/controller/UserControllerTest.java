@@ -21,7 +21,7 @@ import org.junit.Assert;
 
 @RunWith(SpringJUnit4ClassRunner.class) 
 @WebAppConfiguration
-@ContextConfiguration("classpath:applicationContext.xml") 
+@ContextConfiguration("classpath*:applicationContext.xml") 
 public class UserControllerTest {
 	
 	@Autowired  
